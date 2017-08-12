@@ -1,1 +1,4 @@
-Sample txt
+Template literals
+- string literals allowing embedded expressions.
+- `string text ${expression} string text`
+- enclosed by the back-tick (``) instead of double or single quotes.
