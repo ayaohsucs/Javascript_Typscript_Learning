@@ -1,6 +1,8 @@
 **Template literals**
 - string literals allowing embedded expressions.
+```
 - `string text ${expression} string text`
+```
 - enclosed by the back-tick (``) instead of double or single quotes.
 - [FYI] expression can be a literal value (a string or a number), a variable, a built-in value
 
@@ -19,4 +21,3 @@ for (variable of iterable) {
 }
 
 **Three dots**
-# Largest heading
