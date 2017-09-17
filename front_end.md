@@ -4,6 +4,10 @@ https://blog.miniasp.com/post/2016/02/02/JavaScript-novice-advice-and-learning-r
 
 # HTML & CSS
 - HTML will always represent content, and CSS will always represent the appearance of that content
+- self closing element
+```
+<meta type="text/javascript" src="mycode.js" />
+```
 
 # Resource
 HTML & CSS
