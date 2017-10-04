@@ -28,11 +28,23 @@ function multiply(multiplier, ...theArgs) {
     return multiplier * element;
   })
 }
+
+  let multiplication = multiply(5, 3, 2, 7);
 ```
-- theArgs is an array instance
+- theArgs is treated as an array
 
 - spread syntax: to expand an array (or any iterable) to places where zero or more arguments are expected
 ```
 let dateFields = [1989, 6, 7];
 let date = new Date(...dateFields);
 ```
+**Regular Experssions**
+- Patterns used to match charater combinations in strings
+```
+let re0 = /abc/;
+let re1 = new RegExp('abc');
+```
+- `\`: Non-special <-> Special
+- `^`: Matches beginning of input; `$`: End of input
+- `*`: Matches the preceding expression 0 or more times. Equivalent to {0,}
+- `+`: Matches the preceding expression 1 or more times. Equivalent to {1,}
