@@ -30,6 +30,8 @@ a
 - div: division, to identify large groupings of content; block-level element
 - span: to identify smaller groupings of text; inline-level element
 - Inline-level elements should not wrap block-level elements
+- *Semantic code*: no literal meaning vs *structurally based elements*: provide meaning to the block
+- Structurally based elements: `<header>`, `<nav>`, `<section>`
 
 # Resource
 HTML & CSS
