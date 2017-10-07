@@ -31,7 +31,7 @@ a
 - span: to identify smaller groupings of text; inline-level element
 - Inline-level elements should not wrap block-level elements
 - *Semantic code*: no literal meaning vs *structurally based elements*: provide meaning to the block
-- Structurally based elements: `<header>`, `<nav>`, `<section>`
+- Structurally based elements: `<header>`, `<nav>`, `<section>`, etc.
 
 # Resource
 HTML & CSS
