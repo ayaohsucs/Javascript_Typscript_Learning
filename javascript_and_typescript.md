@@ -44,6 +44,11 @@ let date = new Date(...dateFields);
 let re0 = /abc/;
 let re1 = new RegExp('abc');
 ```
+- Modifiers: give the property of the search; ex: `i`: case-insensitive, `g`: global search (find all matches rather than stopping at the first match)
+```
+let re0 = /abc/g;
+let re1 = new RegExp('abc', i);
+```
 - `\`: Non-special <-> Special
 - `^`: Matches beginning of input; `$`: End of input
 - `*`: Matches the preceding expression 0 or more times. Equivalent to {0,}
@@ -55,4 +60,3 @@ let re1 = new RegExp('abc');
 let found = re0.test('abbbc');  // this should return false
 ```
 
-References: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions#special-word-boundary
