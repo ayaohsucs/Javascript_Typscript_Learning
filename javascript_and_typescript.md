@@ -54,6 +54,8 @@ let re1 = new RegExp('abc', i);
 - `*`: Matches the preceding expression 0 or more times. Equivalent to {0,}
 - `+`: Matches the preceding expression 1 or more times. Equivalent to {1,}
 - `\w`: Any alphanumeric character, including the underscore. Equivalent to `[A-Za-z0-9\]`
+- `\s`: Matches both space character and tab
+- `\t`: Matches tab
 
 - When finding out whether a pattern is found in a string, use `test` or `search`
 ```
